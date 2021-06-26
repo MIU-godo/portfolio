@@ -1,0 +1,137 @@
+*{
+  font-size: 16px;
+  line-height: 1.5rem;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  color: #543;
+}
+#home{
+  background-image: url(../image/big-bg.png);
+  min-height: 100vh;
+}
+.big-bg{
+  background-size: cover;
+  background-position: center top;
+  // background-repeat: no-repeat;
+}
+
+header{
+  display: flex;
+  background-color: rgba(246, 251, 172, 0.7);
+  height: 5rem;
+  margin: 0 auto 0;
+  padding: 0 4% 0;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid;
+}
+h1{
+  a{
+    text-decoration: none;
+    font-size: 2.5rem;
+    display: flex;
+    align-items: center;
+    .logo{
+      width: 6rem;
+    }
+  }
+}
+.menu{
+  display: flex;
+  li{
+    list-style: none;
+    a{
+      font-size: 1.5rem;
+      text-decoration: none;
+      padding: 0 1rem;
+    }
+  }
+}
+.title{
+  font-size: 6rem;
+  margin-top: 15rem;
+}
+.wrapper{
+  min-height: 100vh;
+  border: 1px solid;
+  .sub-title{
+    font-size: 3rem;
+    margin-top: 6rem;
+    position: relative;
+    // border: 1px solid;
+    display: inline-block;
+  }
+  .sub-title:before{
+    // content:"";
+    // width: 2rem;
+    position: absolute;
+    content: '';
+    border-radius: 50%;
+    top: -0.5rem;
+    left: -3rem;
+    width: 2rem;
+    height: 2rem;
+    background: rgba(182, 28, 44, .5);
+  }
+  .sub-title:after{
+    position:absolute;
+    content:"";
+    width: 8rem;
+    height: 1px;
+    background-color: black;
+    top: 0.6rem;
+    right: -10rem;
+  }
+}
+.about-page{
+  text-align: center;
+  background-color:rgba(175, 179, 122, 0.7);
+  img{
+    width: 10rem;
+    border-radius: 50%;
+  }
+  .contents{
+    text-align: left;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    margin: 3rem 30rem 0;
+  }
+}
+.skill-page{
+  background-color:rgba(246, 251, 172, 0.7);
+  .skills{
+    display: flex;
+    justify-content: space-between;
+    margin: 5rem 5rem 0;
+    .html{
+      width: 25%;
+      img{
+        width: 8rem;
+      }
+      .contents{
+        text-align: left;
+      }
+    }
+  }
+}
+.work-page{
+  background-color:rgba(197, 204, 105, 0.7);
+  .portfolio{
+    .my-work{
+      display: flex;
+      margin: 2rem 10rem 0;
+      img{
+        width: 40%;
+        margin-right: 4rem;
+      }
+      .contents{
+        width: 40%;
+        text-align: left;
+      }
+    }
+    .my-work:last-child{
+      margin-bottom: 10rem;
+    }
+  }
+}
