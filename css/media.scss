@@ -1,0 +1,69 @@
+@media(max-width: 600px){
+  header{
+    height: 2rem;
+  }
+  h1{
+    a{
+      font-size: 1rem;
+      .logo{
+        width: 2rem;
+      }
+    }
+  }
+  .menu{
+    li{
+      a{
+        font-size: 0.8rem;
+      }
+    }
+  }
+  .title{
+    font-size: 2rem;
+  }
+  .about-page{
+    .contents{
+      width: 80%;
+    }
+  }
+  .skill-page{
+   .skills{
+    flex-direction: column;
+     .html{
+       position: relative;
+        width: 100%;
+        // border: 1px solid;
+        margin-bottom: 4rem;
+     }
+     .html:nth-child(1):after,
+     .html:nth-child(2):after{
+      position: absolute;
+      content: "";
+      position: center;
+      transform: translate(-4rem, 1rem);
+      // transform: translateX(-4rem);
+      width: 8rem;
+      height: 1px;
+      background-color: rgba(182, 28, 44, .5);
+     }
+   } 
+  }
+  .work-page{
+    .portfolio{
+      .my-work{
+        flex-direction: column;
+        margin: 0;
+        img,
+        p{
+          width: 80%;
+          display: block;
+        }
+        p{
+          margin-bottom: 4rem;
+        }
+      }
+      .my-work:last-child{
+        padding-bottom: 2rem;
+      }
+    }
+  }
+}

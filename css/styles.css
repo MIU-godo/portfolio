@@ -25,7 +25,6 @@ header {
   padding: 0 4% 0;
   align-items: center;
   justify-content: space-between;
-  border: 1px solid;
 }
 
 h1 a {
@@ -60,7 +59,6 @@ h1 a .logo {
 
 .wrapper {
   min-height: 100vh;
-  border: 1px solid;
 }
 
 .wrapper .sub-title {
@@ -102,10 +100,12 @@ h1 a .logo {
 }
 
 .about-page .contents {
-  text-align: left;
+  text-align: justify;
   font-size: 1rem;
   line-height: 1.5rem;
-  margin: 3rem 30rem 0;
+  padding: 0 2rem;
+  margin: 3rem auto 0;
+  width: 50%;
 }
 
 .skill-page {
@@ -115,7 +115,8 @@ h1 a .logo {
 .skill-page .skills {
   display: flex;
   justify-content: space-between;
-  margin: 5rem 5rem 0;
+  padding: 0 2rem;
+  margin: 5rem auto 0;
 }
 
 .skill-page .skills .html {
@@ -127,29 +128,34 @@ h1 a .logo {
 }
 
 .skill-page .skills .html .contents {
-  text-align: left;
+  text-align: justify;
 }
 
 .work-page {
+  width: 100%;
   background-color: rgba(197, 204, 105, 0.7);
+}
+
+.work-page .portfolio {
+  width: 100%;
 }
 
 .work-page .portfolio .my-work {
   display: flex;
-  margin: 2rem 10rem 0;
+  justify-content: space-between;
+  margin: 2rem 2rem 0;
 }
 
 .work-page .portfolio .my-work img {
-  width: 40%;
-  margin-right: 4rem;
+  width: 45%;
 }
 
-.work-page .portfolio .my-work .contents {
-  width: 40%;
-  text-align: left;
+.work-page .portfolio .my-work p {
+  width: 45%;
+  text-align: justify;
 }
 
 .work-page .portfolio .my-work:last-child {
-  margin-bottom: 10rem;
+  padding-bottom: 6rem;
 }
 /*# sourceMappingURL=styles.css.map */
