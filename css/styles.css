@@ -27,29 +27,41 @@ header {
   justify-content: space-between;
 }
 
-h1 a {
+header h1 > img {
+  display: none;
+}
+
+header h1 a {
   text-decoration: none;
   font-size: 2.5rem;
   display: flex;
   align-items: center;
 }
 
-h1 a .logo {
+header h1 a img {
   width: 6rem;
 }
 
-.menu {
+header .menu {
   display: flex;
 }
 
-.menu li {
+header .menu li {
   list-style: none;
 }
 
-.menu li a {
+header .menu li a {
   font-size: 1.5rem;
   text-decoration: none;
   padding: 0 1rem;
+}
+
+header .menu li:last-child {
+  display: none;
+}
+
+header .phone-size {
+  display: none;
 }
 
 .title {
@@ -82,11 +94,11 @@ h1 a .logo {
 .wrapper .sub-title:after {
   position: absolute;
   content: "";
-  width: 8rem;
+  width: 2rem;
   height: 1px;
   background-color: black;
   top: 0.6rem;
-  right: -10rem;
+  right: -2rem;
 }
 
 .about-page {
@@ -157,5 +169,34 @@ h1 a .logo {
 
 .work-page .portfolio .my-work:last-child {
   padding-bottom: 6rem;
+}
+
+.contact-page {
+  text-align: center;
+  background-color: rgba(175, 179, 122, 0.7);
+}
+
+.contact-page img {
+  width: 10rem;
+  border-radius: 50%;
+}
+
+.contact-page p {
+  text-align: justify;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  padding: 0 2rem;
+  margin: 3rem auto 0;
+  width: 50%;
+}
+
+.contact-page a:hover {
+  background-color: skyblue;
+}
+
+footer p {
+  height: 1.5rem;
+  text-align: center;
+  align-items: center;
 }
 /*# sourceMappingURL=styles.css.map */

@@ -1,19 +1,30 @@
-@media(max-width: 600px){
+@media(max-width: 1100px){
   header{
-    height: 2rem;
-  }
-  h1{
-    a{
-      font-size: 1rem;
+    height: 4rem;
+    padding: 0 6% 0;
+    h1{
       .logo{
-        width: 2rem;
+        display: unset;
+        width: 4rem;
+      }
+      a{
+        display: none;
+        font-size: 1rem;
       }
     }
-  }
-  .menu{
-    li{
-      a{
-        font-size: 0.8rem;
+    .menu{
+      display: none;
+    }
+    .phone-size{
+      // border: 1px solid;
+      display: unset;
+      li{
+        list-style: none;
+        width: 4rem;
+        a{
+          border: 1px solid;
+          text-decoration: none;
+        }
       }
     }
   }
