@@ -12,6 +12,17 @@
   min-height: 100vh;
 }
 
+#home .for-top {
+  display: none;
+  position: fixed;
+  background: white;
+  right: 1rem;
+  bottom: 0;
+  padding: 1rem;
+  border: 2px solid white;
+  border-radius: 0.5rem;
+}
+
 .big-bg {
   background-size: cover;
   background-position: center top;
@@ -56,11 +67,8 @@ header .menu li a {
   padding: 0 1rem;
 }
 
-header .menu li:last-child {
-  display: none;
-}
-
-header .phone-size {
+.phone-size,
+.phone-list {
   display: none;
 }
 

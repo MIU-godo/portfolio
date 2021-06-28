@@ -17,29 +17,34 @@
         <a href="index.html"><img src="image/logo_transparent.png" alt="ＭＩＵ合同会社　ホーム">ＭＩＵ合同会社</a>
       </h1>
       <nav class="menu">
-        <li><a href="about.html">About</a></li>
-        <li><a href="skill.html">Skill</a></li>
-        <li><a href="works.html">Works</a></li>
-        <li><a href="contact.html">Contact</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skill">Skill</a></li>
+        <li><a href="#work">Works</a></li>
+        <li><a href="#contact">Contact</a></li>
       </nav>
-      <nav class="phone-size">
-        <li class="fold"><img src="image/favicon.png" alt="メニュー"></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="skill.html">Skill</a></li>
-        <li><a href="works.html">Works</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </nav>
+      <img class="phone-size" src="image/logo_transparent.png" alt="メニュー">
     </header>
+    <!-- <h2 > -->
+    <nav class="phone-list">
+      <li><a class="close"></a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="skill.html">Skill</a></li>
+      <li><a href="works.html">Works</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a class="close"></a></li> 
+    </nav>
+    <!-- </h2> -->
     <h2 class="title">fit your needs.</h2>
+    <a class="for-top" href="#home">上へ</a>
   </div><!-- big-bg -->
-  <div class="about-page wrapper">
+  <div id="about" class="about-page wrapper">
     <h3 class="sub-title">About</h3>
     <br>
     <img src="image/logo.png" alt="自己紹介">
     <p class="contents">
       私たちはShopify Expertです。Shopify Expertとして、Shopifyストア構築・運用やマーケティングに至るまで幅広く活動しています。欧米でスタンダードになりつつあるモダンフロントエンドとShopifyを融合したヘッドレスコマースの構築も行っています。</p>
   </div><!-- about-page -->
-  <div class="skill-page wrapper">
+  <div id="skill" class="skill-page wrapper">
     <h3 class="sub-title">Skill</h3>
     <br>
     <div class="skills">
@@ -56,8 +61,8 @@
         <p class="contents">更新が必要なサイトには、WordPressをご提案しています。また、カレンダー機能を追加したり、SEO対策やセキュリティ対策など、ご要望に応じた機能も実装可能です。</p>
       </div>
     </div>
-  </div><!-- about-page -->
-  <div class="work-page wrapper">
+  </div><!-- skill-page -->
+  <div id="work" class="work-page wrapper">
     <h3 class="sub-title">Works</h3>
     <br>
     <div class="portfolio">
@@ -75,7 +80,7 @@
       </div>
     </div>
   </div><!-- work-page -->
-  <div class="contact-page wrapper">
+  <div id="contact" class="contact-page wrapper">
     <h3 class="sub-title">Contact</h3>
     <br>
     <a href="#">

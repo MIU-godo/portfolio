@@ -9,6 +9,16 @@
 #home{
   background-image: url(../image/big-bg.png);
   min-height: 100vh;
+  .for-top{
+    display: none;
+    position: fixed;
+    background: white;
+    right: 1rem;
+    bottom: 0;
+    padding: 1rem;
+    border: 2px solid white;
+    border-radius: 0.5rem;
+  }
 }
 .big-bg{
   background-size: cover;
@@ -48,13 +58,14 @@ header{
         padding: 0 1rem;
       }
     }
-    li:last-child{
-      display: none;
-    }
+    // li:last-child{
+    //   display: none;
+    // }
   }
-  .phone-size{
-    display: none;
-  }
+}
+.phone-size,
+.phone-list{
+  display: none;
 }
 .title{
   font-size: 6rem;
